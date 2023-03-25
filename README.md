@@ -1,6 +1,9 @@
 # FAVORITE-Unpacker
 Last Updated: 25/03/2023
 ----
+<details>
+<summary>About this project</summary>
+
 An update for [fvp-tools](https://github.com/vn-tools/fvp-tools)'s script (de)compiler. Tested on IroSekai only for now.
 
 Proper teams do proper translations nowadays, but some kamigames may never be translated. This is an update for those who are impatient (me) when it comes to release/announcement dates for certain translations. Passing a script into a machine translation will obviously not net the best results but many MTL readers (namely LN/WN readers) live by these words:
@@ -9,7 +12,10 @@ Proper teams do proper translations nowadays, but some kamigames may never be tr
 
 Some degree of Japanese is suggested in order to identify and ignore discrepencies in translation to minimize confusion.
 
-----
+</details>
+
+<details>
+<summary>Details</summary>
 
 There are two main files:
 
@@ -23,7 +29,10 @@ Read [fvp-tools](https://github.com/vn-tools/fvp-tools) for a more detailed expl
 Run this file to open up a GUI that asks for an input text and an output file to save it to. Pass in the input_strings file generated from HCB.py.
 Running this program does not use DeepL's api key (free or paid) so connection will begin throttling after about 1000 lines. Use a VPN to bypass limit for another ~1000 words before throttling. Obviously very inefficient.
 
-----
+</details>
+
+<details>
+<summary>Pros/Cons</summary>
 
 ### Pros:
 - Actually works
@@ -35,10 +44,20 @@ Running this program does not use DeepL's api key (free or paid) so connection w
 - Unreliable (Throttling)
 - Lack of functionality (Names like "Shinku" is more often than not translated to "crimson" and needs to be modified manually)
 
+</details>
+
+<details>
+<summary>Issues</summary>
+
 ### Issues
 - Limit of 255 characters per line
 - Only certain lines can be read due to encoding ("Bon Appétit" throws error)
 - Opcode unreadability for other non-iroseka programs
+
+</details>
+
+<details>
+<summary>To Do</summary>
 
 ### To Do
 - Add scroll when lines are overflown
@@ -55,6 +74,16 @@ Running this program does not use DeepL's api key (free or paid) so connection w
 - Reverse engineer other developer script files (or find some online)
 - Settings tab
 - Multithreading
+
+</details>
+
+<details>
+<summary>Relevant</summary>
+
+![image](https://user-images.githubusercontent.com/82582439/227708880-5b3b913a-2762-4e5a-9e1e-c78bc1d7beca.png)
+![image](https://user-images.githubusercontent.com/82582439/227709101-c9797053-c688-45ff-bd9b-d5e37c866620.png)
+
+</details>
 
 ### Patch Notes
 
